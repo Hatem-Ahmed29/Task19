@@ -1,0 +1,51 @@
+# MVC (Model–View–Controller)
+
+MVC is a software design pattern used to organize an application into three main parts. It makes the code easier to understand, manage, and maintain.
+
+### 1. Model
+- Handles the application data.
+- Communicates with the database.
+- Contains the business logic.
+
+**Example:** Getting products from the database.
+
+### 2. View
+- Responsible for displaying data to the user.
+- Contains the user interface (HTML, CSS).
+
+**Example:** Displaying products on a web page.
+
+### 3. Controller
+- Handles user requests and actions.
+- Communicates with the Model.
+- Chooses which View should be displayed.
+
+**Example:** Receiving a request to show all products and asking the Model to get the products.
+
+### How MVC Works
+1. The user sends a request.
+2. The Controller receives the request.
+3. The Controller communicates with the Model.
+4. The Model gets or updates the data.
+5. The Controller sends the data to the View.
+6. The View displays the result to the user.
+
+### Advantages of MVC
+- Makes code more organized.
+- Makes applications easier to maintain.
+- Separates data from the user interface.
+- Makes debugging and testing easier.
+
+### Simple PHP Example
+Imagine we have a blog application:
+
+- **Model:** Gets posts from the database.
+- **View:** Displays posts to the user.
+- **Controller:** Handles the request and connects the Model with the View.
+
+### Short Summary
+MVC is a design pattern that divides an application into three parts:
+
+- **Model:** Manages data and business logic.
+- **View:** Displays data to the user.
+- **Controller:** Handles requests and connects the Model with the View.
